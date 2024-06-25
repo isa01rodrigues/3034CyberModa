@@ -3,10 +3,10 @@
 * Projeto desenvolvido para a disciplina de Programação Web
 
 -Informações do Projeto 
--Paleta de Cor
+*Paleta de Cor
 #00000
--Fontes
--Layout
+*Fontes
+*Layout
 Pagína Home 
--Wire-Frame
+*Wire-Frame
 wire-frame criado no photoshop
