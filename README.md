@@ -1,2 +1,3 @@
 # 3034CyberModa
- Reletura do primeiro projeto web
+* Releitura do site 3034Cyber
+* Projeto desenvolvido para a disciplina de Programação Web
