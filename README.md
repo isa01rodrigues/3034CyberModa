@@ -4,6 +4,7 @@
 
 -Informações do Projeto 
 -Paleta de Cor
+#00000
 -Fontes
 -Layout
 Pagína Home 
