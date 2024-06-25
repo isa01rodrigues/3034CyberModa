@@ -1,0 +1,199 @@
+/******************************************************/
+/**        BODY e TAGS PADRÃO                 **/
+body{
+    background-image: url(../img/FundoCod.jpg);
+}
+
+.site{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+   /** background-color:#534394;**/
+}
+
+h1{
+    
+    font-family: "Ethnocentric";
+}
+/**Cabeçalho**/
+header
+{
+    background-color: #c42567;
+    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+    align-content: center;
+    align-items: center;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    padding: 5%;
+   margin: 5%;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*****************************************************************/
+/**SEÇÃO BANNER HOME**/
+.Homemarca h1{
+    font-size: 6.2em;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Ethnocentric";
+}
+
+.Homemarca h2{
+    font-size: 2.5em;
+    color: aliceblue;
+    text-align: center;
+}
+/*****************************************************************/
+/**SEÇÃO SOBRE NÓS**/
+.quemSomos{
+    background-color: #c42567;
+    width:1150px;
+    height: 250px;
+    margin: 25px;
+}
+
+.quemSomos > div h2{
+    
+    font-family: "Ethnocentric";
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao p{
+    width: 570px;
+    color: antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/********************************************************************/
+/**SEÇÃO SERVIÇOS**/
+.nossoValores{
+    width: 1150px;
+    height: 600px;
+    margin: 25px;
+}
+
+.nossoValores {
+    display: flex;
+    justify-content: center;
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: 400px 600px 400px;
+    gap: 10px; /* Adjust the gap between the columns if needed */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 450px;
+    height: 600px;
+}
+.itemH1{
+    position: static;
+}
+.itemH1 {
+    display: contents;
+}
+.h30 h1{
+    font-size: 14rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    line-height: 1.2;
+    position: absolute;
+    left: 220.64px;
+    top: 585.5px;
+    z-index: 8;
+}
+
+.h34 h1{
+    font-size: 14rem;
+    color: rgb(162, 166, 245);
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: absolute;
+    left: 840.84px;
+    top: 708.5px;
+    z-index: 9;
+
+}
+
+
+/************************************************************/
+/**SEÇÃO GALERIA **/
+.galeria{
+    margin: 25px;
+ 
+}
+.galeria img{
+    padding: 3px;
+}
+
+/************************************************************/
+/**SEÇÃO NOSSA MARCA**/
+.nossaMarca{
+    display: flex;
+    
+}
+.nossaMarca > div:first-child img {
+    width: 600px;
+    height: 600px;
+    margin: 25px;
+}
+
+.nossaMarca > div:last-child {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.nossaMarca p{
+    color: aliceblue;
+    font-size: 1.2rem;
+    background:#c42567;
+    padding: 25px;
+    margin: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/***********************************************************/
+/**ANIMAÇÕES**/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100svh;
+  }
+  
