@@ -205,11 +205,34 @@ header a{
     color: aliceblue;
 }
 /***********************************************************/
-/**ANIMAÇÕES**/
-.container {
+/***********************************************************/
+/**Coleção**/
+.colecoes{
+    position: absolute;
+    top: 2560px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100svh;
-  }
-  
+}
+.nossaColecao{
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.containerColecao img{
+    width: 290px;
+    height: 300px;
+}
+
+.containerColecao h2{
+    text-align: center;
+    color: #c42567;
+    padding: 5px;
+     font-family: "Ethnocentric"
+}
+
+.containerColecao p{
+    text-align: justify;
+    color: aliceblue;
+
+}
