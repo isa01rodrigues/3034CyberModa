@@ -57,6 +57,7 @@ header a{
     color: aliceblue;
     text-align: center;
     font-family: "Ethnocentric";
+    padding: 2%;
 }
 
 .Homemarca h2{
@@ -73,21 +74,23 @@ header a{
     margin: 25px;
 }
 
-.quemSomos > div h2{
-    
+.descricao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4.3%;
+}
+
+.descricao h2{
+    font-size: 1.5em;
     font-family: "Ethnocentric";
     text-align: center;
     padding: 10px;
     color: antiquewhite;
 }
-
-.descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .descricao p{
+    font-size: 1.2em;
+    text-align: justify;
     width: 570px;
     color: antiquewhite;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -200,10 +203,18 @@ header a{
     top: 2030px;
     padding:20px;
 }
-.nossaMarcaTexto h1,p{
+.nossaMarcaTexto h1{
     text-align: center;
     color: aliceblue;
 }
+
+.nossaMarcaTexto p{
+    text-align: justify;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 15px;
+}
+
 /***********************************************************/
 /***********************************************************/
 /**Coleção**/
@@ -211,6 +222,7 @@ header a{
     position: absolute;
     top: 2560px;
     display: flex;
+    height: 530px;
 }
 .nossaColecao{
     width: 300px;
@@ -236,3 +248,34 @@ header a{
     color: aliceblue;
 
 }
+/****************************************************/
+/**Footer**/
+.containerFooter{
+    background-color: #c42567;
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 3210px;
+}
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoFooter{
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+.redesSociais {
+    padding: 10px;
+    margin: 10px;
+}
+
+.redesSociais a{
+    direction: none;
+    padding: 10px;
+}
+
+
