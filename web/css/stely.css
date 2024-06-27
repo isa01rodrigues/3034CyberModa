@@ -78,18 +78,18 @@ header a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 4.3%;
+    padding: 2.3%;
 }
 
 .descricao h2{
     font-size: 1.5em;
     font-family: "Ethnocentric";
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     color: antiquewhite;
 }
 .descricao p{
-    font-size: 1.2em;
+  
     text-align: justify;
     width: 570px;
     color: antiquewhite;
